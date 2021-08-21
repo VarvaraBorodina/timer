@@ -21,7 +21,7 @@ body {
   display: flex;
   flex-direction: column;
   margin-top: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   padding: 50px 10px;
   background-color: #cfccf8;
   background: linear-gradient(45deg, #f176c2, #5bb7e2);
