@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <link href="styles/styles.css" rel="stylesheet">
+    <script defer src="index.js"></script>
+    <title>Timer</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <h2 class="header">Timer</h2>
+            <p id="time" class="time"></p>
+            <div class="buttons">
+                <div class="line"></div>
+                <button id="stop" class="button"> stop </button>
+                <button id="reset" class="button"> reset </button>
+                <button id="start" class="button"> start </button>
+            </div>
+            <svg height="220" width="220" id="pic" class='timer__progress-ring' >
+                <circle class='ring' cy="110" cx="110" r="100" stroke-dashoffset="157"></circle>
+            </svg>
+        </div>
+    </div>
+</body>
