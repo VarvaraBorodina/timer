@@ -1,0 +1,94 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #cfccf8;
+}
+
+.main {
+  position: relative;
+  width: 23%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  min-width: 280px;
+  border-radius: 50px;
+  box-shadow: 0 0 15px 5px #f1f1f1;
+  color: #fff;
+}
+
+.container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding: 20px 10px;
+  background-color: #cfccf8;
+  background: linear-gradient(45deg, #f176c2, #5bb7e2);
+  border-radius: 50px;
+}
+
+.time {
+  width: 100px;
+  align-self: center;
+  padding-bottom: 20px;
+  margin-top: 90px;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+  font-family: "Quicksand";
+  border-radius: 10%;
+}
+
+.header {
+  align-self: center;
+  margin: 0px;
+  font-family: "Quicksand";
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 45px;
+}
+
+.buttons {
+  align-self: center;
+  margin-top: 80px;
+}
+
+.button {
+  padding: 7px 6px 12px 6px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Quicksand";
+  cursor: pointer;
+  box-shadow: 0 0 3px 2px #f1f1f1;
+}
+
+.button:hover {
+  background-color: #f0f0f0;
+}
+
+.button:active {
+  background-color: #cecbcb;
+}
+
+.line {
+  height: 1px;
+  margin-bottom: 10px;
+  border-radius: 100px;
+  background-color: white;
+}
+
+.timer__progress-ring {
+  position: absolute;
+  top: 125px;
+  align-self: center;
+  stroke-width: 20;
+  fill: none;
+  stroke-linecap: round;
+}
